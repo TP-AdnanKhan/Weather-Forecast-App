@@ -1,0 +1,351 @@
+:root{
+
+  /* ☀️ DAY MODE COLORS */
+  --bg: linear-gradient(135deg, #70A1FF, #9DE0FF, #E0FAFF);
+  --card: rgba(255, 255, 255, 0.8);
+  --text: #0A192F;
+
+  --input-bg: #ffffff;
+  --input-text: #1f2937;
+  --input-border: #cbd5e1;
+  --input-placeholder: #64748b;
+  --input-focus: #3b82f6;
+
+  --bg-search-btn: #2563eb;
+  --text-search-btn:#ffffff;
+  --bg-search-btn-hover:#1d4ed8;
+  --border-search-btn: #1d4ed8;
+  --border-search-btn-hover:#2563eb;
+
+  --card-bg: #ffffff;
+  --card-border: #dbeafe;
+  --container-shadow: rgba(148, 163, 184, 0.2);
+  --heading: #1e293b;
+  --text: #334155;
+  --subtext: #64748b;
+  --box-shadow: rgba(0,0,0,0.3);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family:'Segoe UI', Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.container{
+  margin: 1vh auto;
+  padding: 18px 25px 4px 25px;
+  width: 450px;
+  height: auto;
+  box-shadow: 0 20px 30px var(--container-shadow);
+  border-radius: 28px;
+  background: var(--card);
+  text-align: center;
+}
+
+.container h1{
+  text-align: center;
+  margin: 0 0 20px 0;
+  font-weight: 400;
+}
+
+.searchbar{
+  border: 2px solid var(--container-shadow);
+  border-radius: 13px;
+  padding: 5px;
+  transition: box-shadow 0.2s ease-in-out, transform 0.3s ease;
+}
+
+.searchbar:hover{
+  border: 2px solid var(--subtext);
+  box-shadow: 0 3px 25px var(--box-shadow);
+  padding: 5px;
+  transform: scale(1.05);
+}
+
+.searchbar label{
+  position: relative;
+  left: 2px;
+  top:2px;
+  font-size: 1.3rem;
+  cursor:auto;
+}
+
+#search{
+  outline:none;
+  border: 2px solid var(--input-border);
+  border-radius: 11px;
+  background-color: var(--input-bg);
+  color: var(--input-text);
+  height: 30px;
+  width:68%;
+  font-size: 1.01rem;
+  padding-left: 7px;
+  position: relative;
+  left: -5px;
+  bottom:2px;
+}
+
+#search::placeholder {
+  color: var(--input-placeholder);
+}
+
+
+#search:focus{
+  border-color: var(--input-focus);
+  box-shadow: 0 0 10px var(--input-focus);
+}
+
+.searchBtn{
+  padding: 7px 14px;
+  background-color: var(--bg-search-btn);
+  color: var(--text-search-btn);
+  border:1px solid var(--border-search-btn);
+  border-radius: 9px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  position: relative;
+  bottom:2px;
+}
+
+.searchBtn:hover{
+  background-color: var(--bg-search-btn-hover);
+  border-color: var(--border-search-btn-hover);
+}
+
+.mainCard{
+  margin: 18px 0 20px 0;
+  padding: 10px 0px;
+  background: linear-gradient(135deg, var(--card-border), var(--card-bg));
+  border: 2px solid var(--card-border);
+  border-radius:25px;
+  transition: all 0.3s ease;
+}
+
+.mainCard:hover{
+  box-shadow: 0 8px 25px var(--box-shadow);
+  border: 2px solid var(--subtext);
+  transform: scale(1.02);
+}
+
+.cityName{
+  font-size: 2.5rem;
+  margin-left: -39px;
+  font-weight: 500;
+  color: var(--text);
+  padding: 0 0 0 25px;
+}
+
+.dayAndDate{
+  margin: 8px 0 0 0;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 1.03rem;
+  color: var(--subtext);
+}
+
+.emoji{
+  font-size: 5rem;
+}
+
+.weatherCondition{
+  font-size: 1.5rem;
+  line-height: 10px;
+  padding-bottom: 13px;
+}
+
+.temp{
+  font-size: 1.2rem;
+  margin: 8px 0 8px 0;
+}
+
+.feelsLike,.minMax{
+  font-size: 1.05rem;
+  margin: 8px 0 8px 0;
+  line-height: 25px;
+}
+
+.max{
+  padding-right: 10px;
+  margin-right: 4px;
+  border-right: 2px solid var(--subtext);
+}
+
+.otherInfo{
+  border: 2px solid var(--card-border);
+  border-radius: 23px;
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-evenly;
+  transition: all 0.3s ease;
+}
+
+.otherInfo:hover{
+  box-shadow: 0 8px 25px var(--box-shadow);
+  border: 2px solid var(--subtext);
+  transform: scale(1.02);
+}
+
+.infoHead{
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--subtext);
+}
+
+.next24outlook{
+  border: 2px solid var(--card-border);
+  margin: 20px 0;
+  padding: 10px 13px;
+  border-radius: 25px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--subtext);
+}
+
+.next24{
+  display: flex;
+  align-items:center;
+  gap: 8px;
+  overflow: auto;
+  padding: 15px 10px;
+  border-radius: 20px;
+}
+
+.next24::-webkit-scrollbar {
+  height: 6px;
+}
+.next24::-webkit-scrollbar-thumb {
+  background: var(--subtext);
+  border-radius: 5px;
+    cursor: grab;
+}
+.next24::-webkit-scrollbar-track {
+  background: var(--card-border);
+}
+
+.scrollItem{
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text);
+  flex-shrink: 0;/* for prevent the scrollitems from automatic shrinkong */
+  padding: 10px;
+  border: 2px solid var(--card-border);
+  border-radius: 17px;
+  transition: all 0.3s ease;
+}
+
+.scrollItem:hover{
+  box-shadow: 0 0 15px var(--box-shadow);
+  border: 2px solid var(--subtext);
+  transform: scale(1.02);
+}
+
+
+.upcomingForecastBox{
+  border: 2px solid var(--card-border);
+  margin: 20px 0;
+  padding: 10px 13px;
+  border-radius: 25px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--subtext);
+}
+
+.upcomingForecast{
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text);
+  border: 2px solid var(--card-border);
+  border-radius: 10px;
+  margin: 8px 0;
+  padding: 5px 15px 8px 15px;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+
+}
+
+.upcomingForecast:hover{
+  box-shadow: 0 0 15px var(--box-shadow);
+  border: 2px solid var(--subtext);
+  transform: scale(1.02);
+}
+
+.alertErrors{
+  width: 450px;
+  margin: 18px 0;
+}
+
+.alert1{
+  font-size:1.6rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: red;
+}
+
+.alert2{
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.alert3{
+  text-align: left;
+  margin: 10px 0;
+}
+
+.alert3>span{
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.hide{
+  display: none;
+}
+
+@media screen and (max-width:480px){
+  body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .container{
+    width: 90%;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .container>h1{
+    font-size: 1.75rem;
+  }
+
+  #search{
+    width:64%;
+  }
+
+  .searchBtn{
+    width: 20%;
+    padding: 2.5% 1%;
+    font-size: 0.7rem;
+  }
+
+  .cityName{
+    padding-top: 10px;
+    font-size: 2rem;
+  }
+
+  .otherInfo{
+    padding: 15px 5px;
+  }
+
+  .infoHead{
+    font-size: 1rem;
+    padding: 0 5px 7px 5px;
+  }
+}

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast App</title>
+    <link rel="stylesheet" href="wfa.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🌤️ Weather Forecast App</h1>
+
+      <div class="searchbar">
+        <label
+          >🔍 <input type="text" id="search" placeholder="Search for a city..."
+        /></label>
+        <button class="searchBtn">SEARCH</button>
+      </div>
+
+      <div class="mainCard">
+        <p class="cityName">📍 CITY NAME</p>
+        <p class="dayAndDate">Day, 01-01-1970</p>
+        <p class="emoji">🌧️</p>
+        <p class="weatherCondition">Condition</p>
+        <p class="temp">🌡️ 0°C</p>
+        <p class="feelsLike">Feels like: 0°C</p>
+        <div class="minMax">
+          <div>Next 24h Range</div>
+          <span class="max">Max: 0°C</span>
+          <span class="min">Min: 0°C</span>
+        </div>
+      </div>
+
+      <div class="otherInfo">
+        <div class="humidityDiv">
+          <p class="infoHead">💧 HUMIDITY</p>
+          <p class="humidityValue">0%</p>
+        </div>
+        <div class="windSpeedDiv">
+          <p class="infoHead">🌬️ WIND SPEED</p>
+          <p class="windSpeedValue">0 km/h</p>
+        </div>
+        <div class="visibilityDiv">
+          <p class="infoHead">👁️ VISIBILITY</p>
+          <p class="visibilityValue">0 km</p>
+        </div>
+      </div>
+
+      <div class="next24outlook">
+        24-Hour Outlook
+        <div class="next24"></div>
+      </div>
+
+      <div class="upcomingForecastBox">4-DAY FORECAST</div>
+
+      <div class="alertErrors hide">
+        <p class="alert1">⚠️ Ooops! City Not Found</p>
+        <p class="alert2">
+          We couldn't find that location. Please check your spelling and try
+          again!
+        </p>
+        <div class="alert3">
+          <span>Formatting Tips:</span>
+          <p>• City Name: "Mumbai", "Lucknow", "Paris", "Tokyo"</p>
+          <p>
+            • City, Country Code: "Delhi, IN" or "Chennai, IN", "London, GB" or
+            "Paris, FR"
+          </p>
+          <p>
+            • Avoid adding state names directly like "Delhi, India" or "Pune,
+            Maharashtra"—use the country code instead!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="wfa.js"></script>
+  </body>
+</html>
