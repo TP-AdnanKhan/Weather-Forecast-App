@@ -4,7 +4,7 @@ A modern and responsive weather application that provides real-time weather info
 
 ## 🔗 Live Demo
 
-**Live Website:** [https://your-live-link-here.com](https://weather-forecast-app-adnankhan.netlify.app/)
+**Live Website:** [Click here](https://weather-forecast-app-adnankhan.netlify.app/)
 
 ## ✨ Features
 
