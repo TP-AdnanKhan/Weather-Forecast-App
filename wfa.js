@@ -46,7 +46,7 @@ const fetchWeatherInformation = async (city) => {
 
   try {
     const getGeo = await fetch(
-      `http://api.openweathermap.org/geo/1.0/direct?q=${encodeURIComponent(city)}&limit=1&appid=8becb0ac7bc1ed7c41d29bf515f922fd`,
+      `https://api.openweathermap.org/geo/1.0/direct?q=${encodeURIComponent(city)}&limit=1&appid=8becb0ac7bc1ed7c41d29bf515f922fd`,
     );
     let geoObj = await getGeo.json();
 
