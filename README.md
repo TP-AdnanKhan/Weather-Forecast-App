@@ -48,8 +48,8 @@ This two-step approach ensures accurate weather information for every searched l
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/db2a377e-9629-4006-970f-fc519afcb672" alt="Desktop Screenshot" width="410">
-  <img src="https://github.com/user-attachments/assets/1e5e1f1a-59c6-4cc2-b325-2eab17cb77a9" alt="Desktop Screenshot" width="400">
+  <img src="https://github.com/user-attachments/assets/db2a377e-9629-4006-970f-fc519afcb672" alt="Desktop Screenshot" width="310">
+  <img src="https://github.com/user-attachments/assets/1e5e1f1a-59c6-4cc2-b325-2eab17cb77a9" alt="Desktop Screenshot" width="300">
 </p>
 
 <p align="center">
