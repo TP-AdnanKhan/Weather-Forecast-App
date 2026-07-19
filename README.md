@@ -47,10 +47,12 @@ This two-step approach ensures accurate weather information for every searched l
 
 ## 📸 Screenshots
 
-<img width="852" height="962" alt="Screenshot 2026-07-19 105643" src="https://github.com/user-attachments/assets/db2a377e-9629-4006-970f-fc519afcb672" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/db2a377e-9629-4006-970f-fc519afcb672" alt="Desktop Screenshot" width="700">
+  <img src="https://github.com/user-attachments/assets/1e5e1f1a-59c6-4cc2-b325-2eab17cb77a9" alt="Desktop Screenshot" width="700">
+</p>
 
-<img width="792" height="951" alt="Screenshot 2026-07-19 105657" src="https://github.com/user-attachments/assets/1e5e1f1a-59c6-4cc2-b325-2eab17cb77a9" />
-
-<img width="451" height="765" alt="Screenshot 2026-07-19 105727" src="https://github.com/user-attachments/assets/3d8f9d11-dc1b-4c4a-b871-ccc6df93dad4" />
-
-<img width="540" height="780" alt="Screenshot 2026-07-19 105737" src="https://github.com/user-attachments/assets/6453e56f-fa60-473e-96d4-d00d95b883b4" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3d8f9d11-dc1b-4c4a-b871-ccc6df93dad4" alt="Mobile Screenshot" width="250">
+  <img src="https://github.com/user-attachments/assets/6453e56f-fa60-473e-96d4-d00d95b883b4" alt="Mobile Screenshot" width="250">
+</p>
