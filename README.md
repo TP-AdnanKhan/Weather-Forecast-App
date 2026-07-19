@@ -48,11 +48,11 @@ This two-step approach ensures accurate weather information for every searched l
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/db2a377e-9629-4006-970f-fc519afcb672" alt="Desktop Screenshot" width="500">
-  <img src="https://github.com/user-attachments/assets/1e5e1f1a-59c6-4cc2-b325-2eab17cb77a9" alt="Desktop Screenshot" width="500">
+  <img src="https://github.com/user-attachments/assets/db2a377e-9629-4006-970f-fc519afcb672" alt="Desktop Screenshot" width="410">
+  <img src="https://github.com/user-attachments/assets/1e5e1f1a-59c6-4cc2-b325-2eab17cb77a9" alt="Desktop Screenshot" width="400">
 </p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/3d8f9d11-dc1b-4c4a-b871-ccc6df93dad4" alt="Mobile Screenshot" width="250">
-  <img src="https://github.com/user-attachments/assets/6453e56f-fa60-473e-96d4-d00d95b883b4" alt="Mobile Screenshot" width="280">
+  <img src="https://github.com/user-attachments/assets/6453e56f-fa60-473e-96d4-d00d95b883b4" alt="Mobile Screenshot" width="290">
 </p>
